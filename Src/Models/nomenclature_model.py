@@ -49,10 +49,3 @@ class nomenclature_model(reference):
         " Единица измерения "
         exception_proxy.validate(value, reference)
         self._unit = value
-        
-            
-    @property     
-    def unit_code(self):
-        return self.unit.id    
-    
-    

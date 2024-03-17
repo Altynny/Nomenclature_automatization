@@ -25,6 +25,7 @@ class nomenclature_test(unittest.TestCase):
         item.unit = unit
 
         # Проверка
+        print(item.unit)
         assert item is not None
 
     # 
@@ -47,6 +48,6 @@ class nomenclature_test(unittest.TestCase):
         self.assertTrue(f'Есть нужное исключение - {context.exception}')    
 
 
-
+    
 if __name__ == '__main__':
     unittest.main()    

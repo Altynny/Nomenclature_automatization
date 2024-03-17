@@ -13,6 +13,7 @@ class receipe_row_model(reference):
     
     def __init__(self, _nomenclature: nomenclature_model, _size: int, _unit: unit_model):
         """
+
         Args:
             _nomenclature (nomenclature_model): Объект номенклатура
             _size (int): Размер части
@@ -62,5 +63,3 @@ class receipe_row_model(reference):
             _type_: _description_
         """
         return self.__unit    
-        
-    
